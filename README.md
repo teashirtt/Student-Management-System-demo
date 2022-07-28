@@ -2,6 +2,8 @@
 学生管理系统的极简板子
 
 ### 前后端分离的学生管理系统模板
-- SpringBoot + Mybatis-plus + Mysql + vue3.2 + axios 
+- SpringBoot + Mybatis-plus + Mysql + vue3.2 + element-plus + axios 
+- 实现了学生信息的增删改查基本功能
 
-- 还在开发中
+
+> 注册登录界面正在开发中
