@@ -43,12 +43,12 @@ const handleClose = () => {
 }
 
 const check = () => {
-    if (newstudent.number === '' || newstudent.name === '' || newstudent.age === '') return false;
-    if (newstudent.chinese === '' || newstudent.math === '' || newstudent.english === '') return false;
-    if (newstudent.chinese < 0 || newstudent.chinese > 100) return false;
-    if (newstudent.math < 0 || newstudent.math > 100) return false;
-    if (newstudent.english < 0 || newstudent.english > 100) return false;
-    return true;
+    if (newstudent.number === '' || newstudent.name === '' || newstudent.age === '') return false
+    if (newstudent.chinese === '' || newstudent.math === '' || newstudent.english === '') return false
+    if (newstudent.chinese < 0 || newstudent.chinese > 100) return false
+    if (newstudent.math < 0 || newstudent.math > 100) return false
+    if (newstudent.english < 0 || newstudent.english > 100) return false
+    return true
 }
 
 const addStudent = () => {
@@ -60,7 +60,7 @@ const addStudent = () => {
         }).then(() => emit('reacquire'))
     } else {
         dialogVisible.value = true
-        err.value = true;
+        err.value = true
     }
 }
 </script>

@@ -24,8 +24,8 @@
 </template>
 
 <script setup>
-import axios from 'axios';
-import { defineProps, ref, toRaw, defineEmits } from 'vue';
+import axios from 'axios'
+import { defineProps, ref, toRaw, defineEmits } from 'vue'
 
 const props = defineProps({
     student: {
