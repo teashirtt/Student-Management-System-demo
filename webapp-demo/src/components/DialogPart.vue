@@ -37,9 +37,6 @@ let newstudent = {
 }
 const handleClose = () => {
     ElMessageBox.confirm('Are you sure to close this dialog?')
-        // .then(() => {
-        //     dialogVisible.value = false
-        // })
 }
 
 const check = () => {
